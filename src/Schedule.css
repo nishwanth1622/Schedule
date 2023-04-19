@@ -1,0 +1,56 @@
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns for Monday to Friday */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows for Morning, Lunch, Afternoon */
+  }
+  
+  /* Class names for each cell in the table/grid */
+  .morning-upstairs {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .morning-downstairs {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  
+  .morning-parkinglot {
+    grid-column: 4;
+    grid-row: 2;
+  }
+  
+  .lunch-a {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  
+  .lunch-b {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  
+  .lunch-c {
+    grid-column: 4;
+    grid-row: 3;
+  }
+  
+  .lunch-d {
+    grid-column: 5;
+    grid-row: 3;
+  }
+  
+  .afternoon-upstairs {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  
+  .afternoon-downstairs {
+    grid-column: 3;
+    grid-row: 4;
+  }
+  
+  .afternoon-parkinglot {
+    grid-column: 4;
+    grid-row: 4;
+  }
